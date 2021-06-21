@@ -12,11 +12,12 @@ function App() {
     <div className="App">
       <Header />
       <section className="row">
-        <Profile />
+        <Profile name="Debbie Lewis" username="debbielewis" avatar="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&h=256&q=80" projectCount="8" membership="Pro Member" githubUrl="https://example.com/debbielewis" />
         <Projects />
         <Activity />
       </section>
     </div>
   );
 }
+
 export default App;

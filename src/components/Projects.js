@@ -24,11 +24,19 @@ const Projects = () => {
               </button>
             </span>
           </div>
-          <ProjectList />
+          <ProjectList title="Workcation" repo="debbielewis/workcation" repoUrl="https://example.com/debbielewis/workcation" tech="Laravel" lastDeploy="3h ago" location="United States" starred="true" active="true" />
+          <ProjectList title="EasyWire" repo="debbielewis/easywire" repoUrl="https://example.com/debbielewis/easywire" tech="NextJS" lastDeploy="6h ago" location="United States" starred="true" active="true" />
+          <ProjectList title="Workflow" repo="debbielewis/workflow" repoUrl="https://example.com/debbielewis/workflow" tech="Laravel" lastDeploy="4d ago" location="United States" starred="true" active="true" />
+          <ProjectList title="KiteTail" repo="debbielewis/kitetail" repoUrl="https://example.com/debbielewis/kitetail" tech="Laravel" lastDeploy="4d ago" location="United States" starred="false" active="false" />
+          <ProjectList title="Talk Slides" repo="debbielewis/talk-slides" repoUrl="https://example.com/debbielewis/talk-slides" tech="Laravel" lastDeploy="3h ago" location="United States" starred="true" active="true" />
+          <ProjectList title="Personal Website" repo="debbielewis/personal-website" repoUrl="https://example.com/debbielewis/personal-website" tech="NextJS" lastDeploy="3h" location="United States" starred="false" active="true" />
+          <ProjectList title="Digest" repo="debbielewis/digest" repoUrl="https://example.com/debbielewis/digest" tech="Laravel" lastDeploy="3h ago" location="United States" starred="true" active="true" />
         </div>
       </article>
     </>
   );
 }
+
+
 
 export default Projects;
