@@ -404,6 +404,9 @@ body {
 
 .half {
   width: 49%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 810px;
 }
 
 .story-quarter {
@@ -411,6 +414,9 @@ body {
   width: 28%;
   padding-right: 24px;
   padding-left: 24px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 810px;
 }
 
 .aci {
